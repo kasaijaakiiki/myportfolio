@@ -49,7 +49,7 @@ test:
 #
 production:
   <<: *default
-  adapter: postgresql
-  database: db/production.mysql
-  username: Portfolio
-  password: <%= ENV['PORTFOLIO_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  #database: Portfolio_production
+  #username: Portfolio
+  #password: <%= ENV['PORTFOLIO_DATABASE_PASSWORD'] %>
