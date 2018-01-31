@@ -3,14 +3,44 @@
   <head>
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://fonts.google.com/?selection.family=Roboto:100,300,400,500,700" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="app/assets/stylesheets/unslider.css"> 
+    <link rel="stylesheet" href="app/assets/stylesheets/unslider-dots.css"> 
+    <script src="app/assets/javascripts/unslider.js"></script> 
+    <script src="app/assets/javascripts/slider.js"></script> 
 
+    <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+ <body>
+  <div class="header">
+     <div class="nav">
+       <ul> 
+         <li><%= link_to "welcome", { action: "welcome" } %></li>
+         <li><%= link_to "portfolio", portfolio_path %></li>
+         <li> Blog </li>
+         <li> About </li>
+         <li> Contact </li>
+         <li class="pull-right">Akiiki K. Kasaija </li>
+       </ul>
+    </div>
+   </div>
+
     <%= yield %>
+
+    <div class="container">
+  <div class="footer">
+    <ul class="pull-right">
+      <li><a href=""><img src="https://i.imgur.com/Q8TP6yc.png"> </a></li>'
+      <li><a href=""><img src="https://i.imgur.com/jvxNGuh.png"> </a></li>
+      <li><a href=""><img src="https://i.imgur.com/TUnWGSS.png"> </a></li>
+    </ul> <br><br><br>
+    <p class="pull-right"> &copy; 2017 Akiiki Kasaija </p>
+  </div> 
+</div>
+
   </body>
 </html>
