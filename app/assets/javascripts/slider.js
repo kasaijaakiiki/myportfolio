@@ -11,3 +11,10 @@ jQuery(document).ready(function($) {
             delay:  3000
           });
 });
+
+$('.slider').on('init', function () {
+  $('.slider').css({
+    height: 'auto',
+    visibility: 'visible'
+  });
+});

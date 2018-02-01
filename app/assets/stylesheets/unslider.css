@@ -30,11 +30,12 @@
 	visibility: visible;
 }
 .unslider-arrow.prev:before {
-	content:  '<'; /*url("https://i.imgur.com/oN7QgPd.png");*/
-
+	content:  '<<'; /*url("https://i.imgur.com/oN7QgPd.png");*/
+    padding-left: 180px;
+    
 }
 .unslider-arrow.next:before {
-	content:  '>'; /*url("https://i.imgur.com/hRsZydv.png");*/
-
+	content:  '>>'; /*url("https://i.imgur.com/hRsZydv.png");*/
+    padding-right: 130px;
 }
 
