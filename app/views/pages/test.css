@@ -4,7 +4,13 @@
 	background-size:cover;min-height:600px;width:100%}
 .portfolio .jumbotron{height:500px;overflow:hidden;padding:0;width:100%}
 .portfolio .slideshow-container{width:100%}
-.portfolio .slide{height:500px;overflow:hidden;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;width:100%}
+.portfolio .slide{
+	height:500px;
+	overflow:hidden;
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+	width:100%}
 .slide img{position:relative;top:50%;transform:translateY(-50%);width:100%}
 
 .project,.project:hover{color:#000;margin:0 0 40px;text-decoration:none;transition:color .5s}
