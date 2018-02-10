@@ -13,7 +13,7 @@
 	left:20px;
 	z-index:2;
 	cursor:pointer;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-size: 2em;
 }
 .unslider-arrow.next{
@@ -21,8 +21,28 @@
 	right:20px;
 
 }
+.fa-chevron-circle-left {
+	position:absolute;
+	top: 50%;
+	left:60px;
+	z-index:2;
+	cursor:pointer;
+	/*visibility: hidden;*/
+	font-size: 2em;
+
+	}
+.fa-chevron-circle-right {
+	position:absolute;
+	top: 50%;
+	right:40px;
+	z-index:2;
+	cursor:pointer;
+	/*visibility: hidden;*/
+	font-size: 2em;
+}	
 	/* Change the arrow styles
 			You could also use an image instead
+
 */
 		
 /* Use dynamic content to add in a different character and show it */
@@ -30,12 +50,12 @@
 	visibility: visible;
 }
 .unslider-arrow.prev:before {
-	content:  '<<'; /*url("https://i.imgur.com/oN7QgPd.png");*/
-    padding-left: 180px;
+	/*content:  '<<'; /*url("https://i.imgur.com/oN7QgPd.png");*/
+    /*padding-left: 180px;*/
     
 }
 .unslider-arrow.next:before {
-	content:  '>>'; /*url("https://i.imgur.com/hRsZydv.png");*/
-    padding-right: 130px;
+	/*content:  '>>'; /*url("https://i.imgur.com/hRsZydv.png");*/
+    /*padding-right: 130px; 
 }
 

@@ -2,7 +2,7 @@ class PagesController < ApplicationController
 	def welcome
 	end
 
-	def portfolio
+	def project
 	end
 
 	def about

@@ -6,7 +6,7 @@
 html, body {
   margin: 0;
   border: auto;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
 }
 
 .container {
@@ -63,24 +63,28 @@ span {
   border-radius: 0%;
 }
 
-/* PortFolio Page */
+/* Projects Page */
 
 
 .slider { 
   overflow: hidden; 
   transition: height 0.2s linear;
-  padding-left: 50px;
+  padding-left: 150px;
   height: 500px;
-  width:100%;
+  width: 95%;
   }
 
+
 .slider li { list-style: none; }
-      .slider ul li { float: left; }
+      .slider ul li { float: left;} 
         
 .slider img {
-  width: 90%;
   height: 500px;
-  padding-left: 100px;
+  width: 95%;
+}
+
+.thumbnail {
+  height: 200px;
 }
 
 .row {
