@@ -11,4 +11,7 @@ class PagesController < ApplicationController
 	def contact
 	end
 
+	def leadership
+	end
+
 end

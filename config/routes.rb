@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 	get 'project' => 'pages#project'
 	get 'about' => 'pages#about'
 	get 'contact' => 'pages#contact'
+	get 'leadership' => 'pages#leadership'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
