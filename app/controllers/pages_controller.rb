@@ -14,4 +14,7 @@ class PagesController < ApplicationController
 	def leadership
 	end
 
+	def family
+	end
+
 end
