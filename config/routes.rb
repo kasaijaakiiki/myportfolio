@@ -5,5 +5,7 @@ Rails.application.routes.draw do
 	get 'contact' => 'pages#contact'
 	get 'leadership' => 'pages#leadership'
 	get 'family' => 'pages#family'
+	get 'familyMom' => 'pages#familyMom'
+	get 'familyProtected' => 'pages#familyProtected'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

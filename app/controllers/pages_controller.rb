@@ -17,4 +17,10 @@ class PagesController < ApplicationController
 	def family
 	end
 
+	def familyProtected
+	end
+
+	def familyMom
+	end
+
 end
