@@ -64,11 +64,13 @@ border-radius: 0 5px 0 0;
 -webkit-border-radius: 0 5px 0 0;
 -moz-border-radius: 0 5px 0 0;
 }
+
 .tree li:first-child::after {
 border-radius: 5px 0 0 0;
 -webkit-border-radius: 5px 0 0 0;
 -moz-border-radius: 5px 0 0 0;
 }
+
 /*Time to add downward connectors from parents*/
 .tree ul ul::before {
 content: '';
@@ -79,6 +81,8 @@ border-left: 1px solid #ccc;
 width: 0;
 height: 50px;
 }
+
+
 .tree li div {
 border: 1px solid #ccc;
 padding: 5px 10px;
