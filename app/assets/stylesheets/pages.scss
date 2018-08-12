@@ -188,3 +188,9 @@ footer CSS
   width: 30px;
   height: 30px;
 }
+
+/* Books Page */
+
+.col-md-6.book:hover img  {
+  transform: scale(2.0);
+}
